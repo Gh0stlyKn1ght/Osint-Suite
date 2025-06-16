@@ -40,6 +40,7 @@ The following tools will be installed automatically (unless already present):
 | youtube-dl       | [https://github.com/ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl)             |
 | PhoneInfoga      | [https://github.com/sundowndev/phoneinfoga](https://github.com/sundowndev/phoneinfoga)       |
 | TikTok Scraper   | [https://github.com/drawrowfly/tiktok-scraper](https://github.com/drawrowfly/tiktok-scraper) |
+| yt-dlp           | [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) |
 
 > **Note:** Some tools may require elevated permissions. Ensure the script is run with appropriate rights on Kali Linux.
 
