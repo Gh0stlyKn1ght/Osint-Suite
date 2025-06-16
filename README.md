@@ -17,7 +17,7 @@ This script ensures:
 * System prerequisites are installed.
 * Tools are not reinstalled if already present.
 * Errors are logged.
-* A purple progress interface for visual clarity.
+
 
 ## Tools Installed
 
