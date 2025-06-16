@@ -43,6 +43,44 @@ The following tools will be installed automatically (unless already present):
 
 > **Note:** Some tools may require elevated permissions. Ensure the script is run with appropriate rights on Kali Linux.
 
+## Troubleshooting weybackurls
+
+
+ You're seeing command not found: waybackurls because the binary installed by go install is located in $HOME/go/bin, which likely isn't in your $PATH.
+🔧 To fix this:
+1. Confirm it's installed
+
+Run:
+
+ls $HOME/go/bin/waybackurls
+
+If it exists, that’s good.
+2. Temporarily use it:
+
+You can run it like this directly:
+```
+$HOME/go/bin/waybackurls
+```
+
+3. 🔁 Permanently fix by adding to PATH:
+
+Append this to your shell config:
+```shell
+echo 'export PATH="$PATH:$HOME/go/bin"' >> ~/.bashrc
+source ~/.bashrc
+```
+If you're using Zsh:
+
+```shell
+echo 'export PATH="$PATH:$HOME/go/bin"' >> ~/.zshrc
+source ~/.zshrc
+```
+Once done, try:
+
+```shell
+waybackurls testphp.vulnweb.com`
+```
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute it with attribution.
