@@ -1,5 +1,7 @@
 # Osint Suite Installer
 
+![Osint Suite Logo](https://github.com/Gh0stlyKn1ght/Osint-Suite/blob/adff93abdc07b103e2c0c9863964f99e88ce80ca/logo-osint.png?raw=true)
+
 **Version:** 1.0
 **Author:** Gh0stlyKn1ght
 **Date:** 2025-06-15
